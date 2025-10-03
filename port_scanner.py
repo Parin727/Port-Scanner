@@ -9,3 +9,8 @@ if len(sys.argv)==2: #argv is the amount of arguements we are giving
 else:
     print("Invalid amount of arguements")
     print("Syntax: python3 port_scanner.py <IP>")
+
+print("-"*50)
+print(f"Scanning target: {target}")
+print(f"Time started: {str(datetime.now())}")
+print("-"*50)
