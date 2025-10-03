@@ -16,6 +16,4 @@ Minimal Python port scanner (educational). Scans a small set of common ports on 
 
 ## Usage
 ```bash
-python3 port_scanner.py
-# or
-python3 port_scanner.py --target 127.0.0.1 --ports 22,80,443 --timeout 0.8
+python3 port_scanner.py <ip>
